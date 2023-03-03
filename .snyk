@@ -1,0 +1,27 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - torrent-stream > torrent-discovery > debug:
+        patched: '2023-03-03T16:29:29.712Z'
+    - torrent-stream > torrent-discovery > bittorrent-dht > debug:
+        patched: '2023-03-03T16:29:29.712Z'
+    - torrent-stream > torrent-discovery > bittorrent-tracker > debug:
+        patched: '2023-03-03T16:29:29.712Z'
+    - torrent-stream > torrent-discovery > bittorrent-tracker > simple-peer > debug:
+        patched: '2023-03-03T16:29:29.712Z'
+    - torrent-stream > torrent-discovery > bittorrent-tracker > simple-websocket > debug:
+        patched: '2023-03-03T16:29:29.712Z'
+  'npm:ms:20170412':
+    - torrent-stream > torrent-discovery > debug > ms:
+        patched: '2023-03-03T16:29:29.712Z'
+    - torrent-stream > torrent-discovery > bittorrent-dht > debug > ms:
+        patched: '2023-03-03T16:29:29.712Z'
+    - torrent-stream > torrent-discovery > bittorrent-tracker > debug > ms:
+        patched: '2023-03-03T16:29:29.712Z'
+    - torrent-stream > torrent-discovery > bittorrent-tracker > simple-peer > debug > ms:
+        patched: '2023-03-03T16:29:29.712Z'
+    - torrent-stream > torrent-discovery > bittorrent-tracker > simple-websocket > debug > ms:
+        patched: '2023-03-03T16:29:29.712Z'
